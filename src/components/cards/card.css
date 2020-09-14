@@ -1,0 +1,56 @@
+.Card{
+
+  background-color: white;
+  color:black;
+  padding: 2rem;
+  border-radius: 1rem;
+ min-height: 335px;
+ box-shadow: 2px 3px 5px 1px rgb(233, 225, 225);
+  transition:background-color 0.7s;
+  cursor: pointer
+}
+.Card p{
+  padding-top: 2rem;
+}
+.Card:hover{
+
+  background-color: white;
+  color:black;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(20, 205, 211);
+   cursor: pointer
+  
+  
+}
+@media screen and (max-width:720)
+{
+
+.Card{
+
+  background-color: white;
+  color:black;
+  padding: 1rem;
+  border-radius: 1rem;
+ min-height: 250px;
+ margin: 1rem;
+  transition:background-color 0.7s;
+  cursor: pointer
+}
+.Card p{
+  padding-top: 2rem;
+}
+.Card:hover{
+
+  background-color: white;
+  color:black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(20, 205, 211);
+   cursor: pointer
+  
+  
+}
+
+}
